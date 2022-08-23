@@ -1,0 +1,78 @@
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: slategray;
+    display: inline-block;
+}
+
+.card {
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 30px auto;
+}
+
+.heading {
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(21, 20, 20);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.item_one {
+    min-width: 40vh;
+    min-height: 25vh;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.headings {
+    text-align: center;
+    font-size: 16px;
+}
+
+.p_name,
+.p_stock,
+.p_price {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.span {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+button {
+    width: 130px;
+    color: #fff;
+    background-color: turquoise;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .item_one {
+        width: 100%;
+        display: block;
+    }
+}
